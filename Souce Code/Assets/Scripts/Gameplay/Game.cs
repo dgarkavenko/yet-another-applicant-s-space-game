@@ -241,7 +241,7 @@ public partial class Game : MonoBehaviour {
 
         for (int i = _jammers.Count - 1; i >= 0; i--)
         {
-            _jammers[i].enabled = false;
+            _jammers[i].enabled = true;
             _jammers[i].Release();
         }
 
