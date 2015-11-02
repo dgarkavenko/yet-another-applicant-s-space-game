@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitch.CSharp", "Glitch.CSharp.csproj", "{0821E863-5439-6E80-B2ED-8A696074F2B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitch.CSharp.Editor", "Glitch.CSharp.Editor.csproj", "{83AA2D2B-2DD8-5D60-4D9F-0ACB16E12BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0821E863-5439-6E80-B2ED-8A696074F2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0821E863-5439-6E80-B2ED-8A696074F2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0821E863-5439-6E80-B2ED-8A696074F2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0821E863-5439-6E80-B2ED-8A696074F2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83AA2D2B-2DD8-5D60-4D9F-0ACB16E12BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AA2D2B-2DD8-5D60-4D9F-0ACB16E12BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AA2D2B-2DD8-5D60-4D9F-0ACB16E12BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AA2D2B-2DD8-5D60-4D9F-0ACB16E12BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

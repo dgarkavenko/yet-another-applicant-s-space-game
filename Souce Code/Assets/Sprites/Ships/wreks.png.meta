@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 7091dac0fe6929c4688c3ba2cedf7b23
+timeCreated: 1446402963
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wreks_0
+    21300002: wreks_1
+    21300004: wreks_2
+    21300006: wreks_3
+    21300008: wreks_4
+    21300010: wreks_5
+    21300012: wreks_6
+    21300014: wreks_7
+    21300016: wreks_8
+    21300018: wreks_9
+    21300020: wreks_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: wreks_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 101
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 100
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 107
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 38
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 54
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 102
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 66
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wreks_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 71
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
