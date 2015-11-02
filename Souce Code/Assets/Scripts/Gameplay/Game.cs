@@ -119,13 +119,14 @@ public partial class Game : MonoBehaviour {
 
     private void OnStartNewGame() {
 
-        if(Player != null)
-        {
-            StartCoroutine(OnDeathCoroutine());
-        }
-
-        _menu.OnHideComplete += StartNewGame;
-        _menu.Hide();
+	    if (Player != null)
+	    {
+		    Reset();
+	    }
+	    
+		_menu.OnHideComplete += StartNewGame;
+		_menu.Hide();
+        
     }
 
 
@@ -134,19 +135,19 @@ public partial class Game : MonoBehaviour {
     {
 
         _menu.OnHideComplete -= StartNewGame;
-        _menu.gameObject.SetActive(false);
+		_menu.gameObject.SetActive(false);
+		Player = PlayerShip.Instantiate(PlayerPrefab);
+		Player.transform.position = Vector3.zero;
 
-        Player = PlayerShip.Instantiate(PlayerPrefab);
-        Player.transform.position = Vector3.zero;
+		Player.OnCollision += OnPlayerCollision;
+		Player.OnBeingHit += OnPlayerBeingHit;
+		Player.OnWeaponChanged += OnWeaponChanged;
 
-        Player.OnCollision += OnPlayerCollision;
-        Player.OnBeingHit += OnPlayerBeingHit;
-        Player.OnWeaponChanged += OnWeaponChanged;
+		_hud.Init(Player);
 
-        _hud.Init(Player);
+		_currentGameState = _introState;
+		_currentGameState.Enter();
 
-        _currentGameState = _introState;
-        _currentGameState.Enter();
     }
 
     private void OnWeaponChanged(IWeapon obj)
@@ -223,12 +224,15 @@ public partial class Game : MonoBehaviour {
 
         yield return new WaitForSeconds(.5f);
         _camEffects.JAMMERIntensity = 0;
+		_hud.gameObject.SetActive(true);
         _hud.FinalScoreMode(true);
         yield return new WaitForSeconds(2.5f);
         _camEffects.JAMMERIntensity = 2;
         yield return new WaitForSeconds(1.5f);
 
-        Reset();      
+        Reset();
+		_menu.Show(OnStartNewGame, null);
+
     }
 
     public void Reset()
@@ -256,7 +260,6 @@ public partial class Game : MonoBehaviour {
             Destroy(Player.gameObject);
         }
         pts = 0;
-        _menu.Show(OnStartNewGame, null);
         _camEffects.JAMMERIntensity = 0;
     }
 
